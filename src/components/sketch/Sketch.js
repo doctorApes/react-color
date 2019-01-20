@@ -12,12 +12,9 @@ export const Sketch = ({ width, rgb, hex, hsv, hsl, onChange, onSwatchHover,
   const styles = reactCSS(merge({
     'default': {
       picker: {
-        width,
+        width: '160px',
         padding: '10px 10px 0',
         boxSizing: 'initial',
-        background: '#fff',
-        borderRadius: '4px',
-        boxShadow: '0 0 0 1px rgba(0,0,0,.15), 0 8px 16px rgba(0,0,0,.15)',
       },
       saturation: {
         width: '100%',
